@@ -1,0 +1,379 @@
+/* general */
+
+body {
+    margin: 0 0;
+    background: #FFFFFF;
+
+    font-family: "Blogger Sans", sans-serif;
+
+    font-family: 'Inter', sans-serif;
+}
+
+section {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.bg-grey-fx {
+    background: url(../img/bg-grey-fx.png) repeat, #FFFFFF;
+}
+
+.bg-blue-fx {
+    background: url(../img/bg-blue-fx.png) repeat, #1D1D60;
+}
+
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* end general */
+
+/* text properties */
+
+.txt-grey {
+    color: #373737 !important;
+}
+
+.txt-blue {
+    color: #1D1D60 !important;
+}
+
+.txt-white {
+    color: #FFFFFF !important;
+}
+
+.text-bold {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    color: #242424;
+}
+
+.text-upper {
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.yellow-big {
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 87.08px;
+    line-height: 74%;
+    text-transform: uppercase;
+    color: #FAFF00;
+}
+
+.yellow-medium {
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 46.08px;
+    line-height: 74%;
+    text-transform: uppercase;
+    color: #FAFF00;
+}
+
+.txt-learning {
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 105.5%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h1 {
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    color: #1D1D60;
+}
+
+h2 {
+    font-family: 'Blogger Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    /* color: #1D1D60; */
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    letter-spacing: 0.05em;
+    color: #373737;
+}
+
+.map-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #373737;
+}
+
+/* end text properties */
+
+/* header & hero */
+
+header {
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px 238px; */
+}
+
+.hero {
+    height: 742px;
+    background: url(../img/bg-hero.png) right;
+    background-blend-mode: normal, multiply;
+}
+
+.logo-workshop {
+    margin-top: 5%;
+}
+
+/* end header & hero */
+
+/* about-workshop */
+
+.about-workshop {
+    padding: 160px 0;
+    height: auto;
+}
+
+.about-workshop-content {
+    gap: 3%;
+}
+
+.about-workshop-content h1 {
+    max-width: 40%;
+}
+
+.about-workshop-content>div {
+    max-width: 60%;
+}
+
+/* end about-workshop */
+
+/* main-msg */
+
+.main-msg {
+    height: 207px;
+    background: url(../img/bg-phrase.png) right, #1D1D60;
+}
+
+.main-msg-content {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-main-msg {
+    gap: 1%;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-divider {
+    content: "";
+    width: 118px;
+    height: auto;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+    margin: -20px;
+}
+
+/* end main-msg */
+
+/* rich-media */
+
+.rich-media {
+    padding: 160px 0;
+    height: auto;
+}
+
+.rich-media-content {
+    gap: 20px;
+}
+
+.gallery {
+    max-width: 100%;
+    gap: 20px;
+}
+
+.gallery img {
+    border-radius: 10px;
+}
+
+.video iframe {
+    border-radius: 10px;
+}
+
+/* end rich-media */
+
+/* main-atribute */
+
+.main-atributes {
+    height: 100%;
+    padding-bottom: 130px;
+}
+
+.card-group {
+    gap: 20px;
+}
+
+.card {
+    align-items: flex-start;
+    width: 33%;
+    height: 100%;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+}
+
+.card-header {
+    align-items: center;
+    padding: 35px 55px;
+    gap: 16px;
+    height: 130px;
+    border-radius: 10px 10px 0 0;
+    background: #1D1D60;
+}
+
+.card-header h2 {
+    line-height: 120%;
+}
+
+.card h2 {
+    text-align: center;
+    columns: #fff !important;
+}
+
+.bulletpoints {
+    padding: 0 30px;
+    max-height: 100%;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    align-items: baseline;
+    gap: 2%;
+    margin-bottom: -20px;
+}
+
+/* end main-atribute */
+
+/* where */
+
+.where {
+    height: auto;
+}
+
+.where-content {
+    gap: 50px;
+}
+
+.where-content img {
+    height: 522px;
+    width: 720px;
+}
+
+.top {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.bottom {
+    align-items: center;
+    gap: 20px;
+}
+
+.bottom img {
+    width: 29px;
+    height: 36px;
+}
+
+.btn-simple {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 7px;
+    width: 139.76px;
+    height: 20px;
+}
+
+.btn-simple img {
+    width: 13px;
+    height: 13px;
+}
+
+.see-on-map p {
+    margin-bottom: -1px;
+    margin-top: 0;
+}
+
+/* end where */
+
+/* who-we-are */
+
+.who-we-are {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, #3a3ac2, #3a3ac2), url(../img/bg-quem-somos.png) center;
+    background-blend-mode: soft-light, multiply, normal;
+    padding: 130px 0;
+    height: auto;
+}
+
+.who-we-are-content {
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end who-we-are */
