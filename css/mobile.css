@@ -1,0 +1,21 @@
+/* Mobile styles */
+
+/* Breakpoint for mobile devices with a maximum width of 767px */
+@media only screen and (max-width: 767px)  {
+    /* add your styles here */
+  }
+  
+  /* Breakpoint for mobile devices with a minimum width of 768px */
+  @media only screen and (min-width: 768px) {
+    /* add your styles here */
+  }
+  
+  /* Breakpoint for tablets and devices with a minimum width of 992px */
+  @media only screen and (min-width: 992px) {\n  /* add your styles here */
+  }
+  
+  /* Breakpoint for desktop devices with a minimum width of 1200px */
+  @media only screen and (min-width: 1200px) {
+    /* add your styles here */
+  }
+  
