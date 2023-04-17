@@ -1,10 +1,21 @@
 /* Mobile styles */
 
 /* Breakpoint for mobile devices with a maximum width of 767px */
-@media only screen and (min-width: 370px) and (max-width: 767px) {
+@media only screen and (min-width: 370px) and (max-width: 768px) {
 
   .hero .logo-workshop img {
     max-width: 100%;
+
+  }
+
+  .hero .hero-content {
+    position: relative;
+  }
+
+  .hero .hero-content .logo-workshop {
+    position: absolute;
+    top: 200px;
+    left: 20px;
   }
 
   .about-workshop-content {
