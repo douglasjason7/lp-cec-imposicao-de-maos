@@ -1,21 +1,334 @@
 /* Mobile styles */
 
 /* Breakpoint for mobile devices with a maximum width of 767px */
-@media only screen and (max-width: 767px)  {
-    /* add your styles here */
+@media only screen and (min-width: 370px) and (max-width: 767px) {
+
+  .hero .logo-workshop img {
+    max-width: 100%;
   }
-  
-  /* Breakpoint for mobile devices with a minimum width of 768px */
-  @media only screen and (min-width: 768px) {
-    /* add your styles here */
+
+  .about-workshop-content {
+    flex-direction: column;
   }
-  
-  /* Breakpoint for tablets and devices with a minimum width of 992px */
-  @media only screen and (min-width: 992px) {\n  /* add your styles here */
+
+  .about-workshop-content h1 {
+    max-width: 100%;
+    align-items: center;
   }
-  
-  /* Breakpoint for desktop devices with a minimum width of 1200px */
-  @media only screen and (min-width: 1200px) {
-    /* add your styles here */
+
+  .about-workshop-content>div {
+    max-width: 100%;
   }
-  
+
+  .about-workshop-content {
+    max-width: 90%;
+    align-items: center;
+  }
+
+  .main-msg {
+    height: 207px;
+    background: url(../img/bg-phrase.png) right, #1D1D60;
+    background-size: cover;
+  }
+
+  .main-msg-content {
+    flex-direction: column;
+  }
+
+  .left-main-msg {
+    flex-direction: column;
+  }
+
+  .vertical-divider {
+    display: none;
+  }
+
+  .main-msg {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .txt-learning {
+    text-align: center;
+  }
+
+  .gallery img {
+    max-width: 48.7%;
+  }
+
+  .card-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  .where-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .where .where-content .img {
+    max-width: 90%;
+  }
+
+  .where .where-content .text {
+    max-width: 90%;
+  }
+
+  .who-we-are .who-we-are-content {
+    max-width: 90%;
+    flex-direction: column;
+  }
+
+  .who-we-are .who-we-are-content .video {
+    max-width: 90%;
+    margin-top: 0;
+    margin-bottom: 270px;
+  }
+
+  .who-we-are .who-we-are-content .who-we-are-content-text {
+    max-width: 100%;
+  }
+
+  .what-we-contribute-content {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .what-we-contribute .what-we-contribute-content .text {
+    max-width: 100%;
+  }
+
+  .what-we-contribute .what-we-contribute-content .img {
+    max-width: 100%;
+  }
+
+  .main-info-content {
+    align-items: center;
+    gap: 40px;
+  }
+
+  .info-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 90%;
+  }
+
+  .info-top .left {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .value {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .price {
+    flex-direction: column;
+    gap: 0;
+    padding-bottom: 30px;
+  }
+
+  .price span {
+    text-align: center;
+  }
+
+  .info-top .btn-whatsapp-white {
+    max-width: 100%;
+  }
+
+  .certification-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .certification .certification-content .text {
+    width: 80%;
+  }
+
+  .talker-grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    row-gap: 20px;
+  }
+
+  .certification .certification-content img {
+    max-width: 100%;
+  }
+
+  footer {
+    height: auto;
+    padding: 50px 0;
+    background-size: cover;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+}
+
+/* Breakpoint for mobile devices with a minimum width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-workshop-content {
+    flex-direction: column;
+  }
+
+  .about-workshop-content h1 {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .about-workshop-content>div {
+    max-width: 100%;
+  }
+
+  .about-workshop-content {
+    max-width: 90%;
+    align-items: center;
+  }
+
+  .main-msg-content {
+    flex-direction: column;
+  }
+
+  .main-msg {
+    height: 322px;
+  }
+
+  .gallery img {
+    max-width: 48.7%;
+  }
+
+  .card-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  .where-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .where .where-content .img {
+    max-width: 90%;
+  }
+
+  .where .where-content .text {
+    max-width: 90%;
+  }
+
+  .who-we-are .who-we-are-content {
+    max-width: 90%;
+    flex-direction: column;
+  }
+
+  .who-we-are .who-we-are-content .video {
+    max-width: 90%;
+    margin-top: 0;
+    margin-bottom: 70px;
+  }
+
+  .who-we-are .who-we-are-content .who-we-are-content-text {
+    max-width: 100%;
+  }
+
+  .what-we-contribute-content {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .what-we-contribute .what-we-contribute-content .text {
+    max-width: 100%;
+  }
+
+  .what-we-contribute .what-we-contribute-content .img {
+    max-width: 100%;
+  }
+
+  .info-top {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .certification-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .certification .certification-content .text {
+    width: 80%;
+  }
+
+}
+
+/* Breakpoint for tablets and devices with a minimum width of 992px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .about-workshop-content>div {
+    max-width: 50%;
+  }
+
+  .main-msg {
+    height: 157px;
+  }
+
+  .txt-learning {
+    font-size: 30px;
+  }
+
+  .text-upper {
+    font-size: 24px;
+  }
+
+  .container {
+    max-width: 940px;
+  }
+
+  .value {
+    padding: 0 24px;
+  }
+
+  .price {
+    padding: 0 24px;
+  }
+
+  .price span {
+    font-size: 20px;
+  }
+
+  .gallery img {
+    max-width: 48.9%;
+  }
+
+  .btn-whatsapp-blue {
+    gap: 10px;
+    width: 247px;
+    padding: 0 10px;
+  }
+}
+
+/* Breakpoint for desktop devices with a minimum width of 1200px */
+@media only screen and (min-width: 1200px) {}
